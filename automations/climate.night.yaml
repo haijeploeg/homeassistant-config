@@ -1,0 +1,15 @@
+---
+# Set temperature when the first motion is detected in the morning
+- alias: "Zet de thermostaat op 18 graden om 21:30"
+  initial_state: 'on'
+  trigger:
+  - platform: time
+    at: '21:30'
+  condition: []
+  action:
+  - service: climate.set_temperature
+    target:
+      entity_id: climate.woonkamer
+    data:
+      temperature: 18
+  mode: single

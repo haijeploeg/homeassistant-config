@@ -1,0 +1,13 @@
+.HA_VERSION
+.storage
+*.log
+*.log.*
+*.db
+*.db-*
+._*
+webostv.conf
+zigbee.db
+secrets.yaml
+image/
+custom_components/
+www/community

@@ -1,0 +1,3 @@
+---
+# Load the automations
+automation: !include_dir_merge_list ../automations/

@@ -1,0 +1,3 @@
+---
+# Enable wake on LAN intergration
+wake_on_lan:

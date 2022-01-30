@@ -1,0 +1,21 @@
+---
+# Set temperature when the first motion is detected in the morning
+- alias: "Zet de thermostaat op 19 graden bij de eerste beweging in de ochtend"
+  initial_state: 'on'
+  trigger:
+  - platform: time
+    at: '08:00'
+  condition: []
+  action:
+  - wait_for_trigger:
+    - platform: state
+      entity_id: binary_sensor.philips_hue_motion_sensor_hal_occupancy
+      from: 'off'
+      to: 'on'
+    timeout: '10800'
+  - service: climate.set_temperature
+    target:
+      entity_id: climate.woonkamer
+    data:
+      temperature: 19
+  mode: single

@@ -1,0 +1,36 @@
+---
+# Customize settings
+light.group_woonkamer:
+  friendly_name: Woonkamer
+  icon: mdi:lamp
+ 
+light.group_eetkamer:
+  friendly_name: Eetkamer
+  icon: mdi:lamp
+
+light.group_keuken:
+  friendly_name: Keuken
+  icon: mdi:lamp
+
+light.group_hal:
+  friendly_name: Hal
+  icon: mdi:track-light
+
+light.group_overloop:
+  friendly_name: Overloop
+  icon: mdi:lamp
+
+media_player.nest_mini:
+  friendly_name: Google Nest Mini
+
+sensor.omrin_gft:
+  entity_picture: /local/images/afval_gft_small.png
+  friendly_name: GFT
+
+sensor.omrin_sortibak:
+  entity_picture: /local/images/afval_rest_small.png
+  friendly_name: Restafval
+
+sensor.omrin_papier:
+  entity_picture: /local/images/afval_papier_small.png
+  friendly_name: Papier

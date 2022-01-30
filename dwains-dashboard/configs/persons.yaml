@@ -1,0 +1,9 @@
+---
+# Persons Dwains dashboard configuration
+persons:
+  - name: Haije
+    track: !secret dwains_persons_track_haije
+    show_map: 'false'
+  - name: Esmé
+    track: !secret dwains_persons_track_esme
+    show_map: 'false'

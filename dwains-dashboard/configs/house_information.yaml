@@ -1,0 +1,8 @@
+---
+# House information configuration
+house_information:
+  addons:
+    - name: Afvalwijzer
+      path: 'dwains-dashboard/addons/house_information/afvalwijzer/page.yaml'
+      data:
+        wastecollector: omrin

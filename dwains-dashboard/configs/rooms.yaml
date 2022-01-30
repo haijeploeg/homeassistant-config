@@ -1,0 +1,30 @@
+---
+# Rooms Dwains dashboard configuration
+rooms:
+  - name: Hal
+    icon: fas:key
+    light: light.group_hal
+    temperature: sensor.philips_hue_motion_sensor_hal_temperature
+    motion: binary_sensor.philips_hue_motion_sensor_hal_occupancy
+
+  - name: Woonkamer
+    icon: fas:couch
+    light: light.group_woonkamer
+    temperature: sensor.woonkamer_temperature
+    humidity: sensor.woonkamer_humidity
+    climate: climate.woonkamer
+    media_player: group.woonkamer_media_players
+
+  - name: Eetkamer
+    icon: fas:hamburger
+    light: light.group_eetkamer
+
+  - name: Keuken
+    icon: fas:utensils
+    light: light.group_keuken
+
+  - name: Overloop
+    icon: mdi:stairs-up
+    light: light.group_overloop
+    temperature: sensor.philips_hue_motion_sensor_overloop_temperature
+    motion: binary_sensor.philips_hue_motion_sensor_overloop_occupancy

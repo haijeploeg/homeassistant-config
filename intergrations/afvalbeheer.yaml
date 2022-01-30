@@ -1,0 +1,17 @@
+---
+# Afvalbeheer configuration
+sensor:
+  - platform: afvalbeheer
+    wastecollector: Omrin
+    resources:
+      - gft
+      - papier
+      - sortibak
+    postcode: !secret afvalbeheer_postcode
+    streetnumber: !secret afvalbeheer_streetnumber
+    upcomingsensor: 1
+    dateformat: '%d %b'
+    dateonly: 1
+    nameprefix: 1
+    builtinicons: 0
+    dutch: 1

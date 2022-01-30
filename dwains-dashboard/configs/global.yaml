@@ -1,0 +1,14 @@
+---
+# Global Dwains dashboard configuration
+global:
+  weather: weather.home
+  outside_temperature: sensor.buienradar_temperature
+  outside_humidity: sensor.buienradar_humidity
+  inside_temperature: climate.woonkamer
+  battery_empty_strings:
+    - "unavailable"
+  safety_ok_strings:
+    - "Ok"
+    - "Idle"
+    - "off"
+  show_covers: closed

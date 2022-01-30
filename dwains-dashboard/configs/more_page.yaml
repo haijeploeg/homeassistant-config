@@ -1,0 +1,9 @@
+---
+# More page configuration
+more_page:
+  addons:
+    - name: Afvalwijzer
+      icon: fas:recycle
+      path: 'dwains-dashboard/addons/more_page/afvalwijzer/page.yaml'
+      data:
+        wastecollector: omrin

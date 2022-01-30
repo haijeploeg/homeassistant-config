@@ -1,0 +1,19 @@
+---
+# Turn on the lights in the living room at sunset
+- alias: Turn on lights in woonkamer after sunset
+  initial_state: 'on'
+  trigger:
+  - platform: sun
+    event: sunset
+    offset: '0'
+  condition:
+  - condition: state
+    entity_id: group.all_persons
+    state: home
+  action:
+  - service: light.turn_on
+    target:
+      entity_id: light.group_woonkamer
+    data:
+      brightness_pct: 70
+  mode: single

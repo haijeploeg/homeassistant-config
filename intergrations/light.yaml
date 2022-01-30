@@ -1,0 +1,33 @@
+light:
+  - platform: group
+    name: group_woonkamer
+    entities:
+      - light.philips_hue_filament_woonkamer_lamp_1
+      - light.philips_hue_filament_woonkamer_lamp_2
+      - light.philips_hue_filament_woonkamer_lamp_3
+
+  - platform: group
+    name: group_eetkamer
+    entities:
+      - light.philips_hue_filament_eetkamer_lamp_1
+      - light.philips_hue_filament_eetkamer_lamp_2
+      - light.philips_hue_filament_eetkamer_lamp_3
+      - light.philips_hue_filament_eetkamer_lamp_4
+
+  - platform: group
+    name: group_keuken
+    entities:
+      - light.philips_hue_filament_keuken_lamp_1
+      - light.philips_hue_filament_keuken_lamp_1
+
+  - platform: group
+    name: group_hal
+    entities:
+      - light.philips_hue_ambiance_hal_spot_1
+      - light.philips_hue_ambiance_hal_spot_2
+      - light.philips_hue_ambiance_hal_spot_3
+
+  - platform: group
+    name: group_overloop
+    entities:
+      - light.philips_hue_ambiance_overloop_lamp_1
