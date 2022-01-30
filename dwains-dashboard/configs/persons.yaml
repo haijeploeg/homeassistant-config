@@ -2,8 +2,8 @@
 # Persons Dwains dashboard configuration
 persons:
   - name: Haije
-    track: !secret dwains_persons_track_haije
+    track: person.haije_ploeg
     show_map: 'false'
   - name: Esmé
-    track: !secret dwains_persons_track_esme
+    track: person.esme_couperus
     show_map: 'false'
