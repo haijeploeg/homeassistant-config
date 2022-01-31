@@ -1,7 +1,7 @@
 ---
 # Global Dwains dashboard configuration
 global:
-  weather: weather.home
+  weather: weather.buienradar
   outside_temperature: sensor.buienradar_temperature
   outside_humidity: sensor.buienradar_humidity
   inside_temperature: climate.woonkamer

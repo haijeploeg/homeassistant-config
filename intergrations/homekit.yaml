@@ -1,0 +1,28 @@
+---
+# Homekit configuration
+homekit:
+  - name: Home Assistant Bridge
+    mode: bridge
+    port: 21063
+    filter:
+      include_entities:
+        - climate.woonkamer
+        - light.group_woonkamer
+        - light.group_eetkamer
+        - light.group_keuken
+        - light.group_hal
+        - light.group_overloop
+
+  - name: LG C9
+    mode: accessory
+    port: 21064
+    filter:
+      include_entities:
+        - media_player.lg_oled_c9
+    entity_config:
+      media_player.lg_oled_c9:
+        feature_list:
+          - feature: on_off
+          - feature: play_pause
+          - feature: play_stop
+          - feature: toggle_mute
