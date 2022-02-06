@@ -18,7 +18,7 @@ light:
     name: group_keuken
     entities:
       - light.philips_hue_filament_keuken_lamp_1
-      - light.philips_hue_filament_keuken_lamp_1
+      - light.philips_hue_filament_keuken_lamp_2
 
   - platform: group
     name: group_hal
