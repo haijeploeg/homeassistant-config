@@ -10,5 +10,3 @@ group:
     name: Woonkamer media
     entities:
       - media_player.lg_oled_c9
-      - media_player.chromecast_ultra
-      - media_player.google_nest_mini

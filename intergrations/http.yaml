@@ -1,7 +1,7 @@
 ---
 # HTTP configuration with SSL enabled
 http:
-  server_port: 443
+  server_port: 8123
   ssl_certificate: !secret http_ssl_certificate
   ssl_key: !secret http_ssl_key
   cors_allowed_origins:
@@ -11,7 +11,5 @@ http:
   login_attempts_threshold: 5
   use_x_forwarded_for: true
   trusted_proxies:
-    - 172.16.0.0/16
-    - 172.18.0.0/16
-    - 172.30.33.0/24
+    - 172.16.0.0/12
     - 192.168.0.0/24

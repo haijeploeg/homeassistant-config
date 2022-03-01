@@ -1,0 +1,4 @@
+---
+# DSMR sensor intergration
+sensor:
+  - platform: dsmr_reader
