@@ -1,0 +1,40 @@
+woonkamer:
+  icon: fas:couch
+  floor: ''
+  disabled: false
+eetkamer:
+  icon: mdi:hamburger
+  floor: ''
+  disabled: false
+keuken:
+  icon: mdi:silverware-fork-knife
+  floor: ''
+  disabled: false
+hal:
+  icon: mdi:key-chain-variant
+  floor: ''
+  disabled: false
+overloop:
+  icon: mdi:stairs
+  floor: ''
+  disabled: false
+slaapkamer:
+  icon: mdi:bed-king-outline
+  floor: ''
+  disabled: false
+logeerkamer:
+  icon: mdi:bed
+  floor: ''
+  disabled: false
+kantoor:
+  icon: mdi:laptop
+  floor: ''
+  disabled: false
+zolder:
+  icon: mdi:home-roof
+  floor: ''
+  disabled: false
+garage:
+  icon: mdi:garage
+  floor: ''
+  disabled: false

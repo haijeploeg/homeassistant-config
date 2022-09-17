@@ -3,6 +3,7 @@
 homekit:
   - name: Home Assistant Bridge
     mode: bridge
+    advertise_ip: 192.168.0.201
     port: 21063
     filter:
       include_entities:
@@ -16,6 +17,7 @@ homekit:
   - name: LG C9
     mode: accessory
     port: 21064
+    advertise_ip: 192.168.0.201
     filter:
       include_entities:
         - media_player.lg_oled_c9

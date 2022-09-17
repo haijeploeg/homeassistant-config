@@ -3,6 +3,7 @@
 *.log
 *.log.*
 *.db
+*.db.*
 *.db-*
 ._*
 webostv.conf
@@ -11,3 +12,5 @@ secrets.yaml
 image/
 custom_components/
 www/community
+backups/
+

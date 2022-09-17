@@ -1,0 +1,188 @@
+button.signify_netherlands_b_v_lwv001_e371a108_identify:
+  disabled: true
+button.signify_netherlands_b_v_lwv001_723da208_identify:
+  disabled: true
+button.signify_netherlands_b_v_lwv001_af71a108_identify:
+  disabled: true
+select.signify_netherlands_b_v_lwv001_e371a108_on_off_startuponoff:
+  disabled: true
+select.signify_netherlands_b_v_lwv001_723da208_on_off_startuponoff:
+  disabled: true
+select.signify_netherlands_b_v_lwv001_af71a108_on_off_startuponoff:
+  disabled: true
+number.signify_netherlands_b_v_lwv001_e371a108_level_start_up_current_level:
+  disabled: true
+number.signify_netherlands_b_v_lwv001_723da208_level_start_up_current_level:
+  disabled: true
+number.signify_netherlands_b_v_lwv001_af71a108_level_start_up_current_level:
+  disabled: true
+button.signify_netherlands_b_v_lwv001_5ad31508_identify:
+  disabled: true
+button.signify_netherlands_b_v_lwv001_2ed41508_identify:
+  disabled: true
+button.signify_netherlands_b_v_lwv001_41f81508_identify:
+  disabled: true
+button.signify_netherlands_b_v_lwv001_37d11508_identify:
+  disabled: true
+number.signify_netherlands_b_v_lwv001_5ad31508_level_start_up_current_level:
+  disabled: true
+number.signify_netherlands_b_v_lwv001_2ed41508_level_start_up_current_level:
+  disabled: true
+number.signify_netherlands_b_v_lwv001_41f81508_level_start_up_current_level:
+  disabled: true
+number.signify_netherlands_b_v_lwv001_37d11508_level_start_up_current_level:
+  disabled: true
+select.signify_netherlands_b_v_lwv001_5ad31508_on_off_startuponoff:
+  disabled: true
+select.signify_netherlands_b_v_lwv001_2ed41508_on_off_startuponoff:
+  disabled: true
+select.signify_netherlands_b_v_lwv001_41f81508_on_off_startuponoff:
+  disabled: true
+select.signify_netherlands_b_v_lwv001_37d11508_on_off_startuponoff:
+  disabled: true
+button.signify_netherlands_b_v_lwv001_f4eca108_identify:
+  disabled: true
+button.signify_netherlands_b_v_lwv001_f57aa108_identify:
+  disabled: true
+number.signify_netherlands_b_v_lwv001_f4eca108_level_start_up_current_level:
+  disabled: true
+number.signify_netherlands_b_v_lwv001_f57aa108_level_start_up_current_level:
+  disabled: true
+select.signify_netherlands_b_v_lwv001_f4eca108_on_off_startuponoff:
+  disabled: true
+select.signify_netherlands_b_v_lwv001_f57aa108_on_off_startuponoff:
+  disabled: true
+binary_sensor.nest_protect_hal_heads_up:
+  disabled: true
+binary_sensor.nest_protect_hal_nightly_promise:
+  disabled: true
+binary_sensor.nest_protect_hal_occupancy:
+  disabled: true
+binary_sensor.nest_protect_hal_pathlight:
+  disabled: true
+binary_sensor.nest_protect_hal_steam_check:
+  disabled: true
+device_tracker.unifi_18_b4_30_ee_60_b2_default:
+  disabled: true
+button.signify_netherlands_b_v_ltg002_266dc50b_identify:
+  disabled: true
+button.signify_netherlands_b_v_ltg002_d96ec50b_identify:
+  disabled: true
+button.signify_netherlands_b_v_ltg002_0aa0cb0b_identify:
+  disabled: true
+button.signify_netherlands_b_v_sml003_6e3bcd0b_identify:
+  disabled: true
+binary_sensor.philips_hue_motion_sensor_hal_on_off:
+  disabled: true
+binary_sensor.nest_protect_hal_co_test:
+  disabled: true
+binary_sensor.nest_protect_hal_smoke_test:
+  disabled: true
+binary_sensor.nest_protect_hal_speaker_test:
+  disabled: true
+binary_sensor.nest_protect_hal_buzzer_test:
+  disabled: true
+binary_sensor.nest_protect_hal_pir_test:
+  disabled: true
+binary_sensor.nest_protect_hal_humidity_test:
+  disabled: true
+binary_sensor.nest_protect_hal_led_test:
+  disabled: true
+binary_sensor.nest_protect_hal_online:
+  disabled: true
+number.signify_netherlands_b_v_ltg002_266dc50b_level_start_up_current_level:
+  disabled: true
+number.signify_netherlands_b_v_ltg002_d96ec50b_level_start_up_current_level:
+  disabled: true
+number.signify_netherlands_b_v_ltg002_0aa0cb0b_level_start_up_current_level:
+  disabled: true
+select.hal_brightness:
+  disabled: true
+select.signify_netherlands_b_v_ltg002_266dc50b_on_off_startuponoff:
+  disabled: true
+select.signify_netherlands_b_v_ltg002_d96ec50b_on_off_startuponoff:
+  disabled: true
+select.signify_netherlands_b_v_ltg002_0aa0cb0b_on_off_startuponoff:
+  disabled: true
+sensor.nest_protect_hal_pathlight:
+  disabled: true
+sensor.nest_protect_hal_replace_by:
+  disabled: true
+sensor.nest_protect_hal_battery_level:
+  disabled: true
+switch.hal_steam_check:
+  disabled: true
+switch.hal_pathlight:
+  disabled: true
+switch.hal_nightly_promise:
+  disabled: true
+switch.hal_heads_up:
+  disabled: true
+binary_sensor.philips_hue_motion_sensor_overloop_on_off:
+  disabled: true
+binary_sensor.nest_protect_overloop_heads_up:
+  disabled: true
+binary_sensor.nest_protect_overloop_co_test:
+  disabled: true
+binary_sensor.nest_protect_overloop_occupancy:
+  disabled: true
+binary_sensor.nest_protect_overloop_online:
+  disabled: true
+binary_sensor.nest_protect_overloop_pathlight:
+  disabled: true
+binary_sensor.nest_protect_overloop_smoke_test:
+  disabled: true
+binary_sensor.nest_protect_overloop_speaker_test:
+  disabled: true
+binary_sensor.nest_protect_overloop_steam_check:
+  disabled: true
+binary_sensor.nest_protect_overloop_buzzer_test:
+  disabled: true
+binary_sensor.nest_protect_overloop_pir_test:
+  disabled: true
+binary_sensor.nest_protect_overloop_humidity_test:
+  disabled: true
+binary_sensor.nest_protect_overloop_led_test:
+  disabled: true
+binary_sensor.nest_protect_overloop_nightly_promise:
+  disabled: true
+button.signify_netherlands_b_v_lta009_2b06ac0b_identify:
+  disabled: true
+button.signify_netherlands_b_v_sml003_be30cd0b_identify:
+  disabled: true
+device_tracker.unifi_18_b4_30_ee_6d_60_default:
+  disabled: true
+number.signify_netherlands_b_v_lta009_2b06ac0b_level_start_up_current_level:
+  disabled: true
+select.overloop_brightness:
+  disabled: true
+select.signify_netherlands_b_v_lta009_2b06ac0b_on_off_startuponoff:
+  disabled: true
+sensor.nest_protect_overloop_pathlight:
+  disabled: true
+sensor.nest_protect_overloop_replace_by:
+  disabled: true
+sensor.nest_protect_overloop_battery_level:
+  disabled: true
+switch.overloop_steam_check:
+  disabled: true
+switch.overloop_pathlight:
+  disabled: true
+switch.overloop_nightly_promise:
+  disabled: true
+switch.overloop_heads_up:
+  disabled: true
+button.power_server_ota_update:
+  disabled: true
+button.power_server_reboot:
+  disabled: true
+device_tracker.shelly_plug:
+  disabled: true
+button.1300e78c_0306_4ddf_93ca_487d43d4dbe8_life_span_side_brush_reset:
+  hidden: true
+button.1300e78c_0306_4ddf_93ca_487d43d4dbe8_life_span_brush_reset:
+  hidden: true
+button.1300e78c_0306_4ddf_93ca_487d43d4dbe8_life_span_filter_reset:
+  hidden: true
+button.1300e78c_0306_4ddf_93ca_487d43d4dbe8_relocate:
+  hidden: true
